@@ -46,3 +46,19 @@ fun search(nums: IntArray, target: Int): Int {
     }
     return -1
 }
+
+fun binarySearch(array: List<Int>, target: Int): Int {
+    // Write your code here.
+    if(array.isEmpty()) -1
+    var lowIndex = 0
+    var highIndex = array.size - 1
+    while (lowIndex <= highIndex) {
+        val mid = ( lowIndex + highIndex ) / 2
+        when {
+            target == array[mid] -> return mid
+            target > array[mid] -> lowIndex = mid + 1
+            else -> highIndex = mid - 1
+        }
+    }
+    return -1
+}
