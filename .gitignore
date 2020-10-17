@@ -31,5 +31,3 @@ local.properties
 # Android Studio 3 in .gitignore file.
 .idea/caches
 .idea/modules.xml
-
-app/bleLog.txt
