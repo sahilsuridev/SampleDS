@@ -1,4 +1,0 @@
-package arrays
-
-class NegativePostiveAtOddEven {
-}

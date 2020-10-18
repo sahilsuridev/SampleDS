@@ -2,7 +2,7 @@ package bitwise;
 
 import java.util.Scanner;
 
-public class RightMostDiffBit2Num {
+public class RightMostDiffBit2Num_41 {
     public static void main (String[] args) {
 //        System.out.print("Enter total inputs: ");
 //        Scanner sc=new Scanner(System.in);

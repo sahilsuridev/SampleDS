@@ -1,6 +1,6 @@
 package bitwise;
 
-public class OddElementInArray {
+public class OddElementInArray_39 {
     public static void main(String[] args) {
         checkOddElementInArray();
         checkTwoOddElementsInArray();

@@ -1,6 +1,6 @@
 package strings;
 
-public class CamelCaseDelimiter {
+public class CamelCaseDelimiter_30 {
     public static void main(String[] args) {
         System.out.println(convertToCamelCase("  hi-i_AM$Vikas SHArMa(& "));
     }

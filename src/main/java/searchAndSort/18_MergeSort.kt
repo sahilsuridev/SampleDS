@@ -48,7 +48,7 @@ fun getMiddle(head: ListNode?): ListNode? {
     return slowNode
 }
 
-fun sortedMerge(nodeA: ListNode? , nodeB: ListNode?): ListNode? {
+fun sortedMergeA(nodeA: ListNode? , nodeB: ListNode?): ListNode? {
     var result: ListNode?
     if(nodeA == null) return nodeB
 
@@ -63,4 +63,47 @@ fun sortedMerge(nodeA: ListNode? , nodeB: ListNode?): ListNode? {
     }
 
     return result
+}
+
+fun sortedMerge(nodeA: ListNode? , nodeB: ListNode?): ListNode? {
+    var result: ListNode? = null
+    var head: ListNode? = null
+    var nodeAA = nodeA
+    var nodeBB = nodeB
+    while (nodeAA != null && nodeBB != null) {
+        if(nodeAA.`val` <= nodeBB.`val`) {
+            if(result == null) {
+                result = nodeAA
+                head = result
+            }
+            else{
+                result.next = nodeAA
+                result = result.next
+            }
+            nodeAA = nodeAA.next
+        } else {
+            if(result == null) {
+                result = nodeBB
+                head = result
+            }
+            else {
+                result.next = nodeBB
+                result = result.next
+            }
+            nodeBB = nodeBB.next
+        }
+    }
+    while (nodeAA != null) {
+        result?.next = nodeAA
+        result = result?.next
+        nodeAA = nodeAA.next
+    }
+
+    while (nodeBB != null) {
+        result?.next = nodeBB
+        result = result?.next
+        nodeBB = nodeBB.next
+    }
+
+    return head
 }

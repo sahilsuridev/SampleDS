@@ -3,7 +3,7 @@ package arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AddOneToNumber {
+public class AddOneToNumber_2 {
         public static boolean isValidSubsequence(int[] array, int [] sequence) {
             // Write your code here.
             boolean found = false;

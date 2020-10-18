@@ -2,7 +2,7 @@ package bitwise;
 
 import java.util.Scanner;
 
-public class CountSetBits {
+public class CountSetBits_34 {
 
     public static void main(String[] args) {
         countCheckBits();

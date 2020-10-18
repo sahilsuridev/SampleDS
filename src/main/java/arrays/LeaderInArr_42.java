@@ -1,6 +1,6 @@
 package arrays;
 
-public class LeaderInArr {
+public class LeaderInArr_42 {
     public static void main(String[] args) {
         //Those who dont have any value greater on right side
         System.out.println("****");

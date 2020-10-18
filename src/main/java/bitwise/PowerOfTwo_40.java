@@ -2,7 +2,7 @@ package bitwise;
 
 import java.util.Scanner;
 
-public class PowerOfTwo {
+public class PowerOfTwo_40 {
 //    public static void main(String[] args) {
 //        checkPowOf2();
 //    }

@@ -4,7 +4,7 @@ package bitwise;
 //Input: 5
 //        Output: 2
 //        Explanation: 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
-public class ComplementBase10 {
+public class ComplementBase10_33 {
 
     public static void main(String[] args) {
         System.out.println("**output "+bitwiseComplement(5));

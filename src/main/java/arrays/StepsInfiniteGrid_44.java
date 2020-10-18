@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.ArrayList;
 
-public class StepsInfiniteGrid {
+public class StepsInfiniteGrid_44 {
 
     public static void main(String[] args) {
 //        A = [0, 1, 1]

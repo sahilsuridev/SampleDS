@@ -26,7 +26,7 @@ class HouseRobbers {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            println("****" + rob(intArrayOf(2,3,2)))
+            println("****" + rob(intArrayOf(2,5,7,3,6,1,8,10)))
         }
     }
 }
@@ -35,7 +35,8 @@ fun rob(nums: IntArray): Int {
     if(nums.size == 0) return -1
     if(nums.size == 1) return nums[0]
     if(nums.size == 2) return Math.max(nums[0], nums[1])
-    return Math.max(robHelper(nums, 0, nums.size -2), robHelper(nums, 1, nums.size -1))
+    //return Math.max(robHelper(nums, 0, nums.size -2), robHelper(nums, 1, nums.size -1))
+    return robHelper(nums, 0, nums.size -1)
 }
 
 fun robHelper(nums: IntArray, startIndex: Int, endIndex: Int):Int {

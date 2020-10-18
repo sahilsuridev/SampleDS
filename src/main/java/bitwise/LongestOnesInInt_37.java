@@ -3,7 +3,7 @@ package bitwise;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class LongestOnesInInt {
+public class LongestOnesInInt_37 {
     public static void main(String[] args) {
         subStringWithEqualOnesAndZero();
     }

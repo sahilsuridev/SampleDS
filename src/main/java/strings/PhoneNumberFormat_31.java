@@ -1,6 +1,6 @@
 package strings;
 
-public class Solution {
+public class PhoneNumberFormat_31 {
 
     // format numbers in pair of 3, and last two can be of 2 each. string can contain spaces and "-".
     public static void main(String[] args) {

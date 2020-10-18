@@ -1,6 +1,6 @@
 package arrays;
 
-public class ReverseArray {
+public class ReverseArray_5 {
     public static void main(String[] args) {
         int [] arr = {1, 3, 7, 9, 22, 23, 25};
         reverseArray(arr);

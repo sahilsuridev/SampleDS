@@ -1,6 +1,6 @@
 package arrays;
 
-public class SlidingWindow {
+public class SlidingWindow_43 {
     public static void main(String[] args) {
         getMaxSum();
     }

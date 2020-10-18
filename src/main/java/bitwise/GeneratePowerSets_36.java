@@ -2,7 +2,7 @@ package bitwise;
 
 import java.util.Scanner;
 
-public class GeneratePowerSets {
+public class GeneratePowerSets_36 {
 
     public static void main(String[] args) {
         generatePowerSets();

@@ -1,8 +1,8 @@
 package graph
 
-class DepthFirstSearch(name: String) {
+class DepthFirstSearch_32(name: String) {
     val name: String = name
-    val children = mutableListOf<DepthFirstSearch>()
+    val children = mutableListOf<DepthFirstSearch_32>()
 
     fun depthFirstSearch(): List<String> {
         // Write your code here.
@@ -11,7 +11,7 @@ class DepthFirstSearch(name: String) {
         return result
     }
 
-    fun depthFirstSearchHelper(result: MutableList<String>, depthFirstSearch: DepthFirstSearch) {
+    fun depthFirstSearchHelper(result: MutableList<String>, depthFirstSearch: DepthFirstSearch_32) {
         result.add(depthFirstSearch.name)
         if(depthFirstSearch.children.size == 0) {
             return

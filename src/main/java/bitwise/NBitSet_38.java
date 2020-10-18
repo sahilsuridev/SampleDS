@@ -2,7 +2,7 @@ package bitwise;
 
 import java.util.Scanner;
 
-public class NBitSet {
+public class NBitSet_38 {
 //    public static void main(String[] args) {
 //        checkKthBitSet2();
 //    }
