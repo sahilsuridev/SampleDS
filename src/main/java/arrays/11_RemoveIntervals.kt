@@ -60,7 +60,7 @@ fun removeCoveredIntervalsSecond(intervals: Array<IntArray>): Int {
         if(currInt[0] <= interval[0] && currInt[1] >= interval[1]) {
             result --
         } else {
-            if(currInt[0] >= interval[0] && currInt[1] <= interval[1])
+            if(currInt[0] == interval[0] && currInt[1] <= interval[1])
                 result --
             currInt = interval;
         }
